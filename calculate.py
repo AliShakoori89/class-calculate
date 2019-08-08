@@ -48,16 +48,23 @@ class Moraba(Calculate):
     def masahat(self):
         return (self.zel)**2
 
+print('')
+print('')
 
 obj_1=Mosalas(9,9)
+obj_1.type_('mosalas')
 print(obj_1.mohit())
 print(obj_1.masahat())
 
+print('')
 obj_2=Dayere(8)
+obj_1.type_('dayere')
 print(obj_2.mohit())
 print(obj_2.masahat())
 
+print('')
 obj_3=Moraba(8)
+obj_1.type_('moraba')
 print(obj_3.mohit())
 print(obj_3.masahat())
 
